@@ -1,16 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2febde2e-55b4-4143-8241-de7e97f6bb34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Baseutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/GoogleHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUIProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebUIProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/ApplicationHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/ApplicationHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1237" />
     <option name="height" value="717" />
   </component>
+  <component name="ProjectId" id="1j9uMlWcZhv5cck5fErmWiG83PK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features/step_definitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Search into google and assert results : &lt;entry&gt;">
+    <configuration name="Scenario: Search into google and assert results : &lt;entry&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebUIProject" />
+      <option name="NAME_FILTER" value="^Search into google and assert results \: .*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Search into google and assert results \: .*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search into google and assert results : &lt;entry&gt;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Testing that you can enter a search into google and Google will return results" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="src.test.java.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="WebUIProject" />
+      <option name="NAME_FILTER" value="^Testing that you can enter a search into google and Google will return results$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Testing that you can enter a search into google and Google will return results$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Testing that you can enter a search into google and Google will return results" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
+      <module name="WebUIProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUIProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Unnamed" />
+      <item itemvalue="Cucumber Java.Scenario: Testing that you can enter a search into google and Google will return results" />
+      <item itemvalue="Cucumber Java.Scenario: Search into google and assert results : &lt;entry&gt;" />
+      <item itemvalue="JUnit.CucumberRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Search into google and assert results : &lt;entry&gt;" />
+        <item itemvalue="JUnit.CucumberRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2febde2e-55b4-4143-8241-de7e97f6bb34" name="Default Changelist" comment="" />
+      <created>1603063696203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603063696203</updated>
+      <workItem from="1603063697627" duration="697000" />
+      <workItem from="1603064433227" duration="4160000" />
+      <workItem from="1603198615893" duration="429000" />
+      <workItem from="1603225743451" duration="259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5545000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="109" y="23" key="#Project_Structure" timestamp="1603228620229">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state x="109" y="23" key="#Project_Structure/0.23.1243.777@0.23.1243.777" timestamp="1603228620229" />
+    <state x="433" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1603237685780">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state x="433" y="133" key="#com.intellij.ide.util.MemberChooser/0.23.1243.777@0.23.1243.777" timestamp="1603237685780" />
+    <state x="383" y="121" key="#xdebugger.evaluate" timestamp="1603242647620">
+      <screen x="0" y="23" width="1244" height="777" />
+    </state>
+    <state x="383" y="121" key="#xdebugger.evaluate/0.23.1244.777@0.23.1244.777" timestamp="1603242647620" />
+    <state width="1179" height="220" key="GridCell.Tab.0.bottom" timestamp="1603243028772">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.0.bottom/0.23.1243.777@0.23.1243.777" timestamp="1603243028772" />
+    <state width="1179" height="220" key="GridCell.Tab.0.center" timestamp="1603243028771">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.0.center/0.23.1243.777@0.23.1243.777" timestamp="1603243028771" />
+    <state width="1179" height="220" key="GridCell.Tab.0.left" timestamp="1603243028771">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.0.left/0.23.1243.777@0.23.1243.777" timestamp="1603243028771" />
+    <state width="1179" height="220" key="GridCell.Tab.0.right" timestamp="1603243028772">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.0.right/0.23.1243.777@0.23.1243.777" timestamp="1603243028772" />
+    <state width="1179" height="220" key="GridCell.Tab.1.bottom" timestamp="1603243033804">
+      <screen x="0" y="23" width="1244" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.1.bottom/0.23.1243.777@0.23.1243.777" timestamp="1603243028433" />
+    <state width="1179" height="220" key="GridCell.Tab.1.bottom/0.23.1244.777@0.23.1244.777" timestamp="1603243033804" />
+    <state width="1179" height="220" key="GridCell.Tab.1.center" timestamp="1603243033803">
+      <screen x="0" y="23" width="1244" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.1.center/0.23.1243.777@0.23.1243.777" timestamp="1603243028432" />
+    <state width="1179" height="220" key="GridCell.Tab.1.center/0.23.1244.777@0.23.1244.777" timestamp="1603243033803" />
+    <state width="1179" height="220" key="GridCell.Tab.1.left" timestamp="1603243033802">
+      <screen x="0" y="23" width="1244" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.1.left/0.23.1243.777@0.23.1243.777" timestamp="1603243028431" />
+    <state width="1179" height="220" key="GridCell.Tab.1.left/0.23.1244.777@0.23.1244.777" timestamp="1603243033802" />
+    <state width="1179" height="220" key="GridCell.Tab.1.right" timestamp="1603243033803">
+      <screen x="0" y="23" width="1244" height="777" />
+    </state>
+    <state width="1179" height="220" key="GridCell.Tab.1.right/0.23.1243.777@0.23.1243.777" timestamp="1603243028432" />
+    <state width="1179" height="220" key="GridCell.Tab.1.right/0.23.1244.777@0.23.1244.777" timestamp="1603243033803" />
+    <state x="123" y="50" key="SettingsEditor" timestamp="1603229280229">
+      <screen x="0" y="23" width="1243" height="777" />
+    </state>
+    <state x="123" y="50" key="SettingsEditor/0.23.1243.777@0.23.1243.777" timestamp="1603229280229" />
+    <state x="284" y="121" key="search.everywhere.popup" timestamp="1603231318350">
+      <screen x="0" y="23" width="1244" height="777" />
+    </state>
+    <state x="284" y="121" key="search.everywhere.popup/0.23.1244.777@0.23.1244.777" timestamp="1603231318350" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/test.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

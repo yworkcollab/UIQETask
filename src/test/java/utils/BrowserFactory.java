@@ -1,7 +1,10 @@
 package utils;
 
+import Base.Baseutil;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
@@ -24,13 +27,18 @@ public class BrowserFactory {
     }
 
     public static void getChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/utils/driver/win32/chromedriver.exe");
-        driver = new ChromeDriver();
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--window-size=1280,950");
+        driver = new ChromeDriver(options);
+
     }
 
     public static void getFirefoxDriver() {
         System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/java/utils/driver/geckodriver.exe");
         driver = new FirefoxDriver();
     }
+
+
 
 }
